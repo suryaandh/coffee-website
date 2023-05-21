@@ -16,7 +16,7 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: var(--bg);
   color: #fff;
-  min-height: 2000px;
+  min-height: 3000px;
 }
 
 /* Navbar */
@@ -187,6 +187,43 @@ body{
   font-weight: 100;
   line-height: 1.6;
 }
+
+/* Menu Section*/
+
+.menu h2{
+  margin-bottom: 1rem;
+}
+
+.menu p{
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+.menu .row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card{
+  text-align: center;
+  padding: 0 5rem 4rem;
+}
+
+.menu .row .menu-card img{
+  border-radius: 50%;
+  width: 250px;
+}
+
+.menu .row .menu-card .menu-card-title{
+  margin: 1.5rem auto 0.5rem;
+}
+
+
 /* MediaQueries */
 
 /* Laptop */
@@ -258,6 +295,14 @@ body{
   .about .row .content p{
     font-size: 1.6rem;
   }
+
+  .menu p{
+    font-size: 1.2rem;
+  }
+  .menu .row .menu-card img{
+    border-radius: 50%;
+    width: 300px;
+  }
 }
 
 /* Mobile */
@@ -265,4 +310,5 @@ body{
   html{
     font-size: 55%;
   }
+ 
 }
